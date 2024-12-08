@@ -36,3 +36,32 @@ body {
 .menu-item:hover .dropdown {
     display: block;
 }
+.dropdown {
+    display: none;
+    flex-direction: column;
+    background-color: #444;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown a {
+    margin: 5px 0;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.dropdown a:hover {
+    color: #fff;
+}
+
+/* Spacer for long gap */
+.spacer {
+    height: 100px;
+}
+
+/* Main Content Styling */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
