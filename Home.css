@@ -14,3 +14,7 @@ body {
     flex-direction: column;
     padding: 20px;
 }
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
