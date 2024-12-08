@@ -35,6 +35,11 @@ body {
     color: #fff;
     font-size: 16px;
 }
+.menu-item a:hover {
+    color: #f9c74f;
+    transform: scale(1.05);
+    transition: color 0.3s, transform 0.3s;
+}
 
 .menu-item:hover .dropdown {
     display: block;
