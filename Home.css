@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     height: 100vh;
     background-color: #f9f9f9;
@@ -16,6 +16,7 @@ body {
     background: linear-gradient(145deg, #6a11cb, #2575fc);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #fff;
+    transition: all 0.4s ease-in-out;
 }
 .logo {
     text-align: center;
@@ -23,6 +24,10 @@ body {
 }
 .menu {
     flex-grow: 1;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .menu-item {
@@ -72,6 +77,10 @@ body {
 .content {
     flex-grow: 1;
     padding: 20px;
+    background: url('background-pattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
 }
 @media (max-width: 768px) {
     .sidebar {
